@@ -1,0 +1,22 @@
+baseURL = "https://vague.club/"
+languageCode = "fr"
+title = "🌊"
+theme = "term"
+enableRobotsTXT = true
+canonifyURLs = false
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  footer = '🌊'
+
+[params.social]
+  email = "bonjour@vague.club"
+  domain = "vague.club"
+
+[params.fathom]
+  host = "logs.vadrouilles.co"
+  siteID = "CJCRT"
+
+[permalinks]
+  posts = "/:slug"
+  pages = "/:slug"
