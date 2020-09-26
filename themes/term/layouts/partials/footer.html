@@ -1,3 +1,4 @@
+{{ if not .Site.Params.nofooter}}
 <footer class="text-center w-full p-10 text-gray-600 dark:text-gray-400 font-sans font-light text-xs">
   <span class="mr-2">
     {{ $.Site.Params.footer }}
@@ -14,3 +15,4 @@
   {{ end }}
   <a href="mailto:{{ $.Site.Params.social.email }}">✉️ {{ $.Site.Params.social.domain }}</a>
 </footer>
+{{ end }}
