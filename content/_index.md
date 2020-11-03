@@ -1,11 +1,11 @@
 ---
-title: "Hello"
+title: "Aidez les petits acteurs de l'océan"
 date: 2020-01-18T22:57:50+02:00
 draft: false
 resources:
   - src: "*.png"
 ---
 
-{{< img src="vague.png" noshadow="none" >}}
+Les vagues vont et viennent mais ces petits acteurs proches de l'océan ont besoin de vous.
 
-L'océan connecte les gens. Il fascine l'humain depuis des millénaires. Depuis la plage, le port ou en mer, des hommes et des femmes en ont fait leur vie. Leurs histoires nous inspirent et nous voulons vous faire partager leur vision. Vague.club, c'est avant tout la culture de l'eau salée.
+Il est temps de les aider, ce deuxième confinement ne les noyera pas.

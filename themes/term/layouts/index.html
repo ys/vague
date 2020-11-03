@@ -2,4 +2,10 @@
 <div class="content">
   {{ .Content }}
 </div>
+<div class="shops">
+  <h2 class="text-bold">🏠 Petits commerces</h2>
+  {{ range $.Site.Data.actors.shops }}
+  {{ partial "actor.html" . }}
+  {{ end }}
+</div>
 {{ end }}
