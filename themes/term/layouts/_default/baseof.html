@@ -9,8 +9,8 @@
           <span aria-hidden="true" style="display: none">{{ .Site.Title }}</span>
         </div>
       {{ else if fileExists "/static/logo.jpg" }}
-        <div class="logo flex justify-center mb-6">
-          <img src="/logo.jpg"/>
+        <div class="flex justify-center mb-6">
+          <img class="h-32 w-32" src="/logo.jpg"/>
         </div>
       {{ end }}
       <div class="mx-4 md:mx-0">
