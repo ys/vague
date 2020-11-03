@@ -3,9 +3,9 @@
   {{ partial "head" .}}
   <body class="font-mono leading-relaxed text-sm text-darker dark:bg-darker dark:text-gray-100">
     <div class="container my-10 w-screen md:max-w-xl lg:max-w-2xl mx-auto">
-      {{ if fileExists "/static/logo.svg" }}
+      {{ if fileExists "/static/logo.jpg" }}
         <div class="logo flex justify-center mb-6 text-gray-800 dark:text-gray-200">
-          {{ readFile "/static/logo.svg" | safeHTML}}
+          {{ readFile "/static/logo.jpg" | safeHTML}}
           <span aria-hidden="true" style="display: none">{{ .Site.Title }}</span>
         </div>
       {{ end }}
