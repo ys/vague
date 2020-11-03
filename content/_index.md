@@ -10,4 +10,6 @@ Les vagues vont et viennent mais ces petits acteurs proches de l'océan ont beso
 
 Il est temps de les aider, ce deuxième confinement ne les noyera pas.
 
+Certains fournissent directement un webshop, d'autres acceptent des commandes par mail, téléphone. Parfois le retrait est possible aussi. N'hésitez pas à leur envoyer un petit message pour en savoir plus!
+
 Si vous voulez être ajouté à la liste ou ajouter quelqu'un, emailez-moi à [bonjour@vague.club](mailto:bonjour@vague.club).
