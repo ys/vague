@@ -1,6 +1,13 @@
 ---
 - name: Balen
+  image: balen.jpg
   url: https://balen.fr
   description: Balen, est un E-shop de décoration de bord de mer et d'art de vivre côtier et marin, une version 2.0 de notre échoppe balen de Roscoff. Une sélection d'objets de déco au style bord de mer inspirés de la vie salée, du surf, de la mer et des océans.Balen, est un E-shop de décoration de bord de mer et d'art de vivre côtier et marin, une version 2.0 de notre échoppe balen de Roscoff. Une sélection d'objets de déco au style bord de mer inspirés de la vie salée, du surf, de la mer et des océans.
   email: info@balen.fr
   tags: ["en ligne", "livraison"]
+- name: Wood And Sea
+  image: woodandsea.jpg
+  url: https://www.instagram.com/woodandsea/
+  phone: 0290825655 
+  email: contact@wood-and-sea.com
+  tags: ["livraion", "phone"]
