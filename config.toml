@@ -17,6 +17,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params.fathom]
   host = "logs.yannickschutz.com"
   siteID = "CJCRT"
+  hostname = "vague.club"
 
 [permalinks]
   posts = "/:slug"
