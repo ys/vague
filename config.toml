@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   domain = "vague.club"
 
 [params.fathom]
-  host = "logs.vadrouilles.co"
+  host = "logs.yannickschutz.com"
   siteID = "CJCRT"
 
 [permalinks]

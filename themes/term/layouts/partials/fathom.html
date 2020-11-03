@@ -10,7 +10,8 @@
 	m.parentNode.insertBefore(o,m)
 })(document, window, '//{{.Site.Params.fathom.host }}/tracker.js', 'fathom');
 fathom('set', 'siteId', '{{ .Site.Params.fathom.siteID }}');
-if (window.location.hostname === 'yannickschutz.com') {
+{{ $url := urls.Parse .Site.BaseURL }}
+if (window.location.hostname === '{{ $url.Host }}') {
   fathom('trackPageview');
 }
 </script>
