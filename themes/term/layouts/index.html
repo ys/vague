@@ -8,4 +8,10 @@
   {{ partial "actor.html" . }}
   {{ end }}
 </div>
+<div class="artisans">
+  <h2 class="text-bold">🧑‍🎨Artisans et Artistes</h2>
+  {{ range $.Site.Data.actors.artisans }}
+  {{ partial "actor.html" . }}
+  {{ end }}
+</div>
 {{ end }}
