@@ -1,3 +1,7 @@
+- name: Maison Rivages
+  url: http://www.maison-rivages.com/
+  image: maisonrivages.jpg
+  description: Maison d'édition artisanale d'objets, tournée vers la mer, pour l'épicurien surfer
 - name: Yves Quéré
   url: https://yvesquere.com
   image: yvesquere.jpg
