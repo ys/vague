@@ -1,5 +1,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{ $fontstyle := resources.Get "css/fonts.scss" | resources.ExecuteAsTemplate "fonts.css" . | toCSS | resources.PostCSS | minify | fingerprint }}
+  <link rel="preload" href="{{ $fontstyle.RelPermalink }}">
   {{ $style := resources.Get "css/application.scss" | resources.ExecuteAsTemplate "main.css" . | toCSS | resources.PostCSS }}
   {{ if .Site.IsServer }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
