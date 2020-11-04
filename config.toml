@@ -1,6 +1,7 @@
 baseURL = "https://vague.club/"
 languageCode = "fr"
 title = "🌊"
+description = "Les petits commerces, artistes et artisans connectés à la mer ont besoin de votre aide"
 theme = "term"
 enableRobotsTXT = true
 canonifyURLs = false
