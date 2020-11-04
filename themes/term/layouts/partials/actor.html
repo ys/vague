@@ -1,21 +1,25 @@
-{{ $url := urls.Parse .url }}
+{{ $url := urls.Parse .actor.url }}
+{{ $headless := .site.GetPage "/actors" }}
+{{ $src := $headless.Resources.GetMatch (printf "*%s*" .actor.image) }}
+{{ $smallw := default "400x" }}
+{{ $small := $src.Resize $smallw }}
 <div class=" max-w-xl my-8 bg-white border border-gray-300  rounded-sm flex flex-row">
   <div class="w-3/4">
-    <div class="ml-4 text-sm text-gray-800 mt-2 tracking-normal"><a href="{{.url}}">{{.name}}</a></div>
+    <div class="ml-4 text-sm text-gray-800 mt-2 tracking-normal"><a href="{{.actor.url}}">{{.actor.name}}</a></div>
     <p class="ml-4 text-xs text-gray-700 mr-1">
-      {{.description | truncate 100}}
+      {{.actor.description | truncate 100}}
     </p>
     <span class=" ml-4 block pb-4 text-xs text-gray-500">
-      <a class="text-gray-500 no-underline" href="{{ .url }}">website</a>
-      {{ with .email }}
-       • <a class="text-gray-500 no-underline" href="mailto:{{ . }}">email</a>
+      <a class="text-gray-500 no-underline" href="{{ .actor.url }}">website</a>
+      {{ with .actor.email }}
+      • <a class="text-gray-500 no-underline" href="mailto:{{ . }}">email</a>
       {{ end }}
-      {{ with .phone }}
-       • {{ . }}
+      {{ with .actor.phone }}
+      • {{ . }}
       {{ end }}
     </span>
   </div>
   <div class=" w-1/4 overflow-hidden">
-    <img src="/shops/{{.image}}" alt="{{.name}}" class="min-h-full h-32 w-full max-w-none object-cover">
+    <img src="{{ $small.RelPermalink }}" alt="{{.actor.name}}" class="min-h-full h-32 w-full max-w-none object-cover">
   </div>
 </div>
