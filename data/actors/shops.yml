@@ -20,6 +20,10 @@
   email: surfingland76@gmail.com
   phone: "0235853029"
   description: Surf shop - vente et location de planches de surf, d’accessoires, de combinaisons, de vêtements et de décoration
+- name: Monsieur Papier
+  url: https://www.monsieurpapier.fr
+  image: monsieurpapier.jpg
+  description: "Monsieur Papier est une marque de papeterie indépendante. Cécile, éditrice, et Lisa, iconographe et illustratrice, après avoir travaillé plus de dix ans dans l’édition, créent leur première collection début 2014."
 - name: Customind
   url: https://www.instagram.com/customindshop/
   description: "SURF SKATE & ART SHOP ♻️ FIRST ORIGINAL & ECO CONCEPT SINCE 2015"
