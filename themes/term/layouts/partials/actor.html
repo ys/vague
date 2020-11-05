@@ -3,7 +3,7 @@
 {{ $src := $headless.Resources.GetMatch (printf "*%s*" .actor.image) }}
 {{ $smallw := default "400x" }}
 {{ $small := $src.Resize $smallw }}
-<div class=" max-w-xl my-8 bg-white border border-gray-300  rounded-sm flex flex-row">
+<div class="my-8 bg-white border border-gray-300  rounded-sm flex flex-row">
   <div class="w-3/4">
     <div class="ml-4 text-sm text-gray-800 mt-2 tracking-normal"><a href="{{.actor.url}}">{{.actor.name}}</a></div>
     <p class="ml-4 text-xs text-gray-700 mr-1">
