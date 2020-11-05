@@ -14,3 +14,11 @@
   url: https://nomades.studio/edition/
   image: nomades.jpg
   description: "Studio de Création Graphique & Photographie - Bretagne & Paris"
+- name: Captain Yvon Studio
+  url: https://captainyvon.fr/
+  image: captainyvon.jpg
+  description: "Captain Yvon Studio est un duo de créatifs spécialisé dans la production de contenu photo, vidéo, éditorial et digital basé à Brest et à Lille."
+- name: Grégory Mignard
+  url: https://gregorymignard.com/
+  image: gregmignard.jpg
+  description: "Photographe et vidéaste basé dans le Finistère, je réalise des images outdoor et documente des histoires authentiques."
