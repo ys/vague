@@ -1,3 +1,7 @@
+---
+resources:
+- src: "*.png"
+---
 # 🏝 - Lanzarote
 
 ![](lanzarote.png)
