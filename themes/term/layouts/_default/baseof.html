@@ -3,16 +3,10 @@
   {{ partial "head" .}}
   <body class="font-mono leading-relaxed text-sm text-darker dark:bg-darker dark:text-gray-100">
     <div class="container my-10 w-screen md:max-w-xl lg:max-w-2xl mx-auto">
-      {{ if fileExists "/static/logo.svg" }}
-        <div class="logo flex justify-center mb-6 text-gray-800 dark:text-gray-200">
-          {{ readFile "/static/logo.svg" | safeHTML}}
-          <span aria-hidden="true" style="display: none">{{ .Site.Title }}</span>
-        </div>
-      {{ else if fileExists "/static/logo.jpg" }}
-        <div class="flex justify-center my-6">
-          <img class="h-32 w-32" src="/logo.jpg"/>
-        </div>
-      {{ end }}
+      <div class="logo text-3xl flex mb-6 text-gray-800 dark:text-gray-200">
+        <a href="/">{{ .Site.Params.emoji }}</a>
+        <span aria-hidden="true" style="display: none">{{ .Site.Title }}</span>
+      </div>
       <div class="mx-4 md:mx-0">
         {{ block "main" . }} {{ end }}
       </div>

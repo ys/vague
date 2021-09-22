@@ -2,16 +2,4 @@
 <div class="content">
   {{ .Content }}
 </div>
-<div class="shops">
-  <h2 class="text-bold">🏠 Petits commerces</h2>
-  {{ range $.Site.Data.actors.shops }}
-  {{ partial "actor.html" (dict "actor" . "site" $.Site) }}
-  {{ end }}
-</div>
-<div class="artisans">
-  <h2 class="text-bold">🧑‍🎨Artisans et Artistes</h2>
-  {{ range $.Site.Data.actors.artisans }}
-  {{ partial "actor.html" (dict "actor" . "site" $.Site) }}
-  {{ end }}
-</div>
 {{ end }}

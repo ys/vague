@@ -1,27 +1,31 @@
 ---
+title: "Lanzarote"
+date: "2021-09-22"
+emoji: "🏝"
 resources:
 - src: "*.png"
 ---
-# 🏝 - Lanzarote
 
-![](lanzarote.png)
+{{< img src="lanzarote.png" >}}
 
 ## 👁 See
 
 ### Manrique places
 
-- [CACT](https://www.cactlanzarote.com/)
-    - Casa-Museo del Campesino: free, must visit (CACT)
-    - Jameos del Agua: must visit (CACT)
-    - Jardin de cactus: must visit (CACT)
-    - Mirador del Rio : must visit (CACT)
-    - Montanas del Fuego : nice (CACT)
-    - Castillo de San José : nice (CACT)
+[ CACT](https://www.cactlanzarote.com/)
+
+- Casa-Museo del Campesino: free, must visit (CACT)
+- Jameos del Agua: must visit (CACT)
+- Jardin de cactus: must visit (CACT)
+- Mirador del Rio : must visit (CACT)
+- Montanas del Fuego : nice (CACT)
+- Castillo de San José : nice (CACT)
 
 
-- [the Fundacion Cesar Manrique](http://fcmanrique.org/)
-    - Casa del volcan: must visit (FUNDACION)
-    - Casa del palmeral: must visit (FUNDACION)
+[the Fundacion Cesar Manrique](http://fcmanrique.org/)
+
+- Casa del volcan: must visit (FUNDACION)
+- Casa del palmeral: must visit (FUNDACION)
 
 
 ### More

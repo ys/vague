@@ -5,9 +5,9 @@
 
   {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
-  {{ $lqipw := default "20x" }}
-  {{ $smallw := default "800x" }}
-  {{ $largew := default "1500x" }}
+  {{ $lqipw := default "20x webp" }}
+  {{ $smallw := default "800x webp" }}
+  {{ $largew := default "1500x webp" }}
 
   {{/* resize the src image to the given sizes */}}
 
@@ -19,7 +19,7 @@
   {{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
 
   <figure>
-    <picture class="block relative {{ with .Get "noshadow" }}{{else}}shadow-lg{{end}} {{ if gt $src.Height $src.Width }}mx-auto w-2/3{{ end }} img" style="background: url(data:image/jpeg;base64,{{ $lqip.Content | base64Encode  }}); background-size: cover">
+    <picture class="my-8 block relative {{ with .Get "noshadow" }}{{else}}shadow-lg{{end}} {{ if gt $src.Height $src.Width }}mx-auto w-2/3{{ end }} img" style="background: url(data:image/jpeg;base64,{{ $lqip.Content | base64Encode  }}); background-size: cover">
       <svg class="m-0 h-auto w-full" width="{{ $src.Width }}" height="{{ $src.Height }}" aria-hidden="true"></svg>
       <img
         loading="lazy"

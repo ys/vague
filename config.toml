@@ -8,6 +8,7 @@ canonifyURLs = false
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
+  emoji = "🌊"
   nofooter = true
   footer = '🌊'
 

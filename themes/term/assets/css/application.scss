@@ -61,11 +61,11 @@ hr {
 
 .post, .content {
   @apply mb-10;
-  h1 {
-   @apply my-6 pt-2 font-semibold block
+  h1, h2 {
+   @apply my-6 pt-2 text-lg font-semibold block
   }
-  h2 {
-   @apply my-6 pt-2 text-gray-600 font-semibold block
+  h3, h4 {
+   @apply my-6 pt-2 font-semibold block
   }
   ul {
    @apply list-disc list-inside my-8
