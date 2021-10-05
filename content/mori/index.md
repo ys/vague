@@ -2,13 +2,13 @@
 title: "Pour Mori Film Lab"
 date: 2021-10-05T20:57:50+02:00
 draft: false
+emoji: 💌
 resources:
   - src: "*.jpg"
 ---
 
 {{< grid images="7 | 1 | 2 / 3 | 4 | 8 / 5 | 9 | 6" >}}
 
-# Pour Mori Film lab
 
 En fait, je ne sais pas quoi écrire, je ne sais pas quoi dire. C'est un peu ironique quand tu sais que j'adore partager, capturer et raconter des histoires. 
 

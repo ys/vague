@@ -2,7 +2,7 @@
 <header class="mb-2 flex row justify-between">
   <h1 class="text-xl font-semibold">
     {{ with .Params.emoji }}{{ . }}{{ else }}→{{ end }} <a href="{{ .RelPermalink }}"
-      class="text-darker dark:text-gray-100 underline capitalize">{{ .Title }}</a>
+      class="text-darker dark:text-gray-100 capitalize">{{ .Title }}</a>
   </h1>
 </header>
 <div class="content">
